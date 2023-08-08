@@ -1,0 +1,11 @@
+1.public/:This folder is used to store static files that will be served directly to the client. For example, images, fonts, or favicon.ico. These files are accessible through the URL root (/).
+2.src:folder in your Next.js project for better organization, we can typically place our source code files within this folder. 
+3.src/global.css:often referred to as global styles, is a file where you can define CSS rules that apply to the entire application. These styles are applied across all pages and components, providing a consistent look and feel throughout your app.
+4.src/layout.js: component to provide a consistent structure or layout for your application's pages. This can include elements like headers, footers, navigation menus, and any other components that are common to multiple pages.
+5.src/page.js:directory is a special directory where you create individual pages of your application. 
+6.src/page.module.css:assuming  intended to refer to a CSS module for a specific page.
+7.node_modules/:The node_modules folder contains all the dependencies installed for the project, which are listed in the package.json file.
+8.package.json and package-lock.json:The package.json file holds the metadata and the list of dependencies for your project. The package-lock.json file is automatically generated to lock the installed package versions for consistent installations across different environments.
+9.README.md:The README.md file typically contains documentation or instructions on how to set up and use the project.
+10.gitignore:file is used to specify which files and directories should be excluded from version control when using Git.
+11.next.config.js: file in a Next.js project is used to configure various settings and behaviors of your Next.js application. It allows you to customize how Next.js behaves, optimize your application, and set up additional features.
